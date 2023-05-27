@@ -1,21 +1,18 @@
 import React from 'react'
 
 interface Props{
+  icon?:string,
   title : string
-  icon: string
   content:string
+  content2?:string
 }
 
-const TextPlate:React.FC<Props> = ({icon, title, content}) => {
+const TextPlate:React.FC<Props> = ({icon,title="text-2xl", content, content2}) => {
   return (
-    <div className="md:1/2 lg:w-4/12 flex lg:px-14 px-8 pb-6 lg:pb-0">
-      <div className="block">
-        <img src={icon} alt={title} className="w-20"/>
-      </div>
-      <div className="ml-4">
-        <div className="text-xl font-bold font-DmSans mb-4">{title}</div>
-        <p className="text-base text-paragraph font-DmSans">{content}</p>
-      </div>
+    <div>
+      <div className="text-4xl font-bold mb-10">{title}</div>
+      <p className="text-base text-paragraph leading-loose">{content}</p><br />
+      <p className="text-base text-paragraph leading-loose">{content2}</p>
     </div>
   )
 }

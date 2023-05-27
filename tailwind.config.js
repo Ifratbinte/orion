@@ -15,7 +15,7 @@ module.exports = {
         grayPrimary: "#F7F9FB",
         grayPrimaryLight: "#F2F3F5",
         paragraph: "#696969",
-        danger: "#FF002E",
+        danger: "#c20505",
         blue: "#2639ED"
       },
       fontFamily: {
@@ -61,6 +61,9 @@ module.exports = {
         },
         ".section-gap": {
           padding: "75px 0",
+        },
+        ".section-gap-b": {
+          paddingBottom: "75px",
         },
       })
     }

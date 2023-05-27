@@ -5,16 +5,16 @@ interface ButtonProps {
   isOutline?: boolean;
 }
 
-const BtnPrimary: React.FC<ButtonProps> = ({ btn_name, isOutline }) => {
+const Button: React.FC<ButtonProps> = ({ btn_name, isOutline }) => {
   return (
     <button
       className={`${
-        isOutline ? "bg-white text-primary hover:bg-primary hover:text-white transition-all px-6" : "bg-primary text-white px-10"
-      } py-3 font-semibold text-md rounded-full shadow-sm border-primary border-2 border-solid font-DmSans`}
+        isOutline ? "bg-white text-danger hover:bg-danger hover:text-white transition-all px-6" : "bg-danger text-white px-10"
+      } py-3 font-semibold text-md rounded-sm shadow-sm border-danger border-2 border-solid`}
     >
       {btn_name}
     </button>
   );
 };
 
-export default BtnPrimary;
+export default Button;
