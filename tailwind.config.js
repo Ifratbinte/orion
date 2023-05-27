@@ -23,7 +23,7 @@ module.exports = {
         integralCF: ["integralCF", "sans-serif"],
       },
       backgroundImage: {
-        "hero-gfx": "url('/images/gfx/dot.png')",
+        "hero-bg": "url('/images/hero-bg.png')",
       },
       height: {
         "70v": "70vh",
@@ -58,7 +58,10 @@ module.exports = {
           '@screen xl': {
             maxWidth: '1400px',
           },
-        }
+        },
+        ".section-gap": {
+          padding: "75px 0",
+        },
       })
     }
   ],

@@ -6,15 +6,31 @@ export interface NavInterface {
 const NavItems: NavInterface[] = [
   {
     id: 1,
-    title: "Marketplace"
+    title: "Home"
   },
   {
     id: 2,
-    title: "Resource"
+    title: "About"
   },
   {
     id: 3,
-    title: "About"
-  }
+    title: "Products"
+  },
+  {
+    id: 4,
+    title: "Rentails"
+  },
+  {
+    id: 5,
+    title: "Services"
+  },
+  {
+    id: 6,
+    title: "Resources"
+  },
+  {
+    id: 7,
+    title: "Contact"
+  },
 ];
 export default NavItems;

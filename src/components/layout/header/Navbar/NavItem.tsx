@@ -8,8 +8,8 @@ interface Props {
 
 const NavItem: React.FC<Props> = ({ item }) => {
   return (
-    <li className="list unstyled py-2 lg:px-3 xl:px-7">
-      <Link className="flex items-center font-DmSans font-medium text-lg hover:text-primary  text-black" href="#">
+    <li className="list unstyled py-2 lg:px-3 xl:px-4">
+      <Link className="flex items-center font-DmSans font-medium text-lg hover:text-danger text-white uppercase" href="#">
         {item.title}
       </Link>
     </li>
