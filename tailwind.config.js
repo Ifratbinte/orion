@@ -24,6 +24,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-bg": "url('/images/hero-bg.png')",
+        "overlayBg": "url('/images/bg-2.png')",
       },
       height: {
         "70v": "70vh",

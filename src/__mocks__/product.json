@@ -1,0 +1,30 @@
+{
+  "title" : "Product",
+  "subtitle" : "Categories",
+  "category" : [
+    {
+      "id" : 1,
+      "icon" : "/images/product/fire.png",
+      "title" : "Fire Suppression",
+      "content" : "Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    },
+    {
+      "id" : 1,
+      "icon" : "/images/product/aid.png",
+      "title" : "First Aid",
+      "content" : "Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    },
+    {
+      "id" : 1,
+      "icon" : "/images/product/safety.png",
+      "title" : "Safety Apparel",
+      "content" : "Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    },
+    {
+      "id" : 1,
+      "icon" : "/images/product/visibility.png",
+      "title" : "Visibility Aid",
+      "content" : "Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    }
+  ]
+}
