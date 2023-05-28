@@ -26,5 +26,28 @@
       "title" : "Visibility Aid",
       "content" : "Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     }
+  ],
+  "product" : [
+    {
+      "thumb" : "/images/slider/1.jpg"
+    },
+    {
+      "thumb" : "/images/slider/2.jpg"
+    },
+    {
+      "thumb" : "/images/slider/3.jpg"
+    },
+    {
+      "thumb" : "/images/slider/4.jpg"
+    },
+    {
+      "thumb" : "/images/slider/5.jpg"
+    },
+    {
+      "thumb" : "/images/slider/6.jpg"
+    },
+    {
+      "thumb" : "/images/slider/1.jpg"
+    }
   ]
 }
