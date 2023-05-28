@@ -1,0 +1,25 @@
+{
+  "links_card" : [
+    {
+      "id" : 1,
+      "thumb" : "/images/quicklink/sale.png",
+      "icon" : "/images/quicklink/icon-1.png",
+      "title" : "Sale",
+      "content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas corporis eligendi fugiat suscipit voluptatum fuga voluptatem atque non? Totam expedita iure adipisci alias aliquid, facilis dolores quibusdam fuga necessitatibus a?"
+    },
+    {
+      "id" : 1,
+      "thumb" : "/images/quicklink/retail.png",
+      "icon" : "/images/quicklink/icon-2.png",
+      "title" : "Retail",
+      "content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas corporis eligendi fugiat suscipit voluptatum fuga voluptatem atque non? Totam expedita iure adipisci alias aliquid, facilis dolores quibusdam fuga necessitatibus a?"
+    },
+    {
+      "id" : 1,
+      "thumb" : "/images/quicklink/service.png",
+      "icon" : "/images/quicklink/icon-3.png",
+      "title" : "Service",
+      "content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas corporis eligendi fugiat suscipit voluptatum fuga voluptatem atque non? Totam expedita iure adipisci alias aliquid, facilis dolores quibusdam fuga necessitatibus a?"
+    }
+  ]
+}

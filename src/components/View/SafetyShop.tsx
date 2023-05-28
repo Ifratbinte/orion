@@ -1,7 +1,7 @@
 import React from 'react'
 import safetyData from "#mocks/safety.json"
 import TextPlate from '#components/common/TextPlate'
-import Button from '../Button/btnPrimary'
+import ButtonMulti from '../Button/ButtonMulti'
 
 const SafetyShop = () => {
   return (
@@ -12,7 +12,7 @@ const SafetyShop = () => {
             </div>
             <div className='w-3/5 flex flex-col items-start justify-between'>
                 <TextPlate title={safetyData.title} content={safetyData.content1} content2={safetyData.content2}/>
-                <Button btn_name="Learn More"/>
+                <ButtonMulti btn_name="Learn More" btn_name_outline='Get In Touch'/>
             </div>
         </div>
     </div>

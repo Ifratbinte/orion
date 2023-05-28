@@ -8,7 +8,7 @@ const Menu = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   return (
-    <div className="container absolute z-20 py-4 px-2 lg:px-0 mx-[145px]">
+    <div className="container absolute z-20 py-4 px-2 lg:px-0 mx-64">
       <div className="flex items-center justify-between">
           <div className="logo w-[300px]">
             <img src="/images/logo/logo.png" alt="" />
