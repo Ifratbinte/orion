@@ -10,7 +10,7 @@ const Button: React.FC<ButtonProps> = ({ btn_name, isOutline }) => {
     <button
       className={`${
         isOutline ? "bg-white text-danger hover:bg-danger hover:text-white transition-all px-6" : "bg-danger text-white px-10"
-      } py-3 font-semibold text-md rounded-sm shadow-sm border-danger border-2 border-solid`}
+      } py-4 font-semibold text-lg rounded-sm shadow-sm border-danger border-2 border-solid`}
     >
       {btn_name}
     </button>

@@ -31,3 +31,17 @@
   top: -30%;
   z-index: 1;
 }
+
+.product_title{
+  text-align: center;
+  padding-top: 20px;                  
+}
+
+@media only screen and (min-width: 1200px) {
+  .product_title {
+    position: absolute;
+    transform: rotate(-90deg);
+    margin-top: 200px;
+    margin-left: -50px;
+}
+}

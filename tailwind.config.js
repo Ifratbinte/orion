@@ -24,7 +24,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-bg": "url('/images/hero-bg.png')",
-        "overlayBg": "url('/images/bg-2.png')",
+        "overlay-bg": "url('/images/bg-2.png')",
       },
       height: {
         "70v": "70vh",
@@ -39,6 +39,9 @@ module.exports = {
         "800" : "800px",
         "260" : "260px",
         "370" : "370px"
+      },
+      letterSpacing: {
+        widest: '.55em',
       }
     },
   },
@@ -65,6 +68,9 @@ module.exports = {
         },
         ".section-gap-b": {
           paddingBottom: "75px",
+        },
+        ".section-gap-s": {
+          padding: "60px",
         },
       })
     }

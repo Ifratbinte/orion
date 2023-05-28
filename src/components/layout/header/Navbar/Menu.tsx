@@ -8,8 +8,8 @@ const Menu = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   return (
-    <div className="container absolute z-20 py-4 px-2 lg:px-0 mx-64">
-      <div className="flex items-center justify-between">
+      <div className="container absolute z-20 py-4 px-2 lg:px-0">
+        <div className="grid grid-cols-2">
           <div className="logo w-[300px]">
             <img src="/images/logo/logo.png" alt="" />
           </div>
@@ -24,8 +24,8 @@ const Menu = () => {
         <button className="btn visible lg:hidden" onClick={() => setIsVisible((prevState) => !prevState)}>
           <FiAlignRight className="text-2xl lg:relative text-primary"/>
         </button>
-    </div>
-  );
+      </div>
+    );
 };
 
 export default Menu;
